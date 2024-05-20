@@ -116,19 +116,7 @@ const technologies = [
 ];
 
 const experiences = [
-  {
-    title: "MERN Stack Developer",
-    company_name: "Mango Tech",
-    icon: mernStack,
-    iconBg: "#383E56",
-    date: "March 2024 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+  
   {
     title: "React.JS Developer",
     company_name: "Innovative Tech",
@@ -199,6 +187,27 @@ const testimonials = [
 
 const projects = [
   {
+    name: "Sport Streaming App",
+    description:
+      "A comprehensive sport streaming platform that allows users to watch match, and movie, and offers curated recommendations for popular destinations.",
+    tags: [
+      {
+        name: "reactjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "supabase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: sportStream,
+    source_code_link: "https://sport-stream.netlify.app",
+  },
+  {
     name: "Car Rent",
     description:
       "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
@@ -240,27 +249,7 @@ const projects = [
     image: jobit,
     source_code_link: "https://github.com/",
   },
-  {
-    name: "Sport Streaming App",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: sportStream,
-    source_code_link: "https://github.com/",
-  },
+  
 ];
 
 export { services, technologies, experiences, testimonials, projects };
