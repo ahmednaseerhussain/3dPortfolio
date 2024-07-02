@@ -13,6 +13,15 @@
   color-scheme: dark;
 }
 
+.canvas-container {
+  height: 100vh;
+}
+
+@media (max-width: 480px) {
+  .canvas-container {
+    height: 50vh; /* Adjust the height as needed */
+  }
+}
 .hash-span {
   margin-top: -100px;
   padding-bottom: 100px;

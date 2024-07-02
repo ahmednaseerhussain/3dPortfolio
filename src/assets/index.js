@@ -32,6 +32,7 @@ import suparco from "./company/suparco.png"
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import sportStream from "./sportStream.png";
+import cardle from "./cardle.png";
 
 export {
   logo,
@@ -66,4 +67,5 @@ export {
   carrent,
   jobit,
   sportStream,
+  cardle
 };

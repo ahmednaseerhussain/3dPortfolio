@@ -4,6 +4,8 @@ import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 import { useFrame } from "@react-three/fiber";
 import * as THREE from 'three';
 
+import fallbackImage from "../../assets/fallback2.png";
+
 import CanvasLoader from "../Loader";
 
 const Computers = ({ isMobile }) => {
@@ -41,7 +43,7 @@ const ComputersCanvas = () => {
 
   useEffect(() => {
     // Add a listener for changes to the screen size
-    const mediaQuery = window.matchMedia("(max-width: 500px)");
+    const mediaQuery = window.matchMedia("(max-width: 480px)");
 
     // Set the initial value of the `isMobile` state variable
     setIsMobile(mediaQuery.matches);
@@ -59,6 +61,10 @@ const ComputersCanvas = () => {
       mediaQuery.removeEventListener("change", handleMediaQueryChange);
     };
   }, []);
+
+  if (isMobile) {
+    return <img src={fallbackImage} alt="Fallback Image" style={{ width: '70%', height: 'auto', paddingTop: '300px' }} />; // Render the image on mobile
+  }
 
   return (
     <Canvas
