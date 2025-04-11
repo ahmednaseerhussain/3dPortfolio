@@ -33,9 +33,12 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import sportStream from "./sportStream.png";
 import cardle from "./cardle.png";
+<<<<<<< HEAD
 import mern from './company/mern.png'
 import thecustomcases from './thecustomcases.png'
 import japnessdreamtour from './japnessdreamtour.png'
+=======
+>>>>>>> cb273e93de701c197dec1efc15fbee6dbf7668c6
 
 export {
   logo,
@@ -70,9 +73,13 @@ export {
   carrent,
   jobit,
   sportStream,
+<<<<<<< HEAD
   cardle,
   mern,
   thecustomcases,
   japnessdreamtour
   
+=======
+  cardle
+>>>>>>> cb273e93de701c197dec1efc15fbee6dbf7668c6
 };
