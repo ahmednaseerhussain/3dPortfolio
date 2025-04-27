@@ -121,7 +121,7 @@ const technologies = [
 const experiences = [
   
   {
-    title: "Backend Developer",
+    title: "Full Stack Engineer",
     company_name: "Paradigm Digitals",
     icon: nodejs,
     iconBg: "#E6DEDD",
